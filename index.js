@@ -15,6 +15,6 @@ function back() {
 function calculate() {
     var result = document.getElementById('result').innerHTML;
     if(result){
-        document.getElementById('result').innerHTML = eval(result);
+        document.getElementById('result').innerHTML = eval(result)
     }
 }
